@@ -4,12 +4,37 @@
   box-sizing: border-box;
 }
 
-header {
-  background-color: rgb(0, 145, 255);
+nav {
+  background-color: #34495e;
+}
+nav .navbar-brand, nav .navbar-brand:hover {
+  color: #ecf0f1;
+}
+nav .navbar-toggle {
+  background-color: #ecf0f1;
+}
+nav .nav-link {
+  border-bottom: 2px solid transparent;
+}
+nav .nav-link:hover {
+  color: #ecf0f1;
+  border-bottom: 2px solid black;
 }
 
 h2::first-letter {
   font-size: 100px;
+}
+
+.container img {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#contato .container .row .col .bi-linkedin {
+  width: 500px;
+  background-color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
