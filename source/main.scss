@@ -10,10 +10,6 @@
 
 nav {
     background-color:$corDoHeader;
-    
-    .navbar-brand, .navbar-brand:hover{
-        color: $corDoTexto;
-    }
 
     .navbar-toggle {
         background-color: $corDoTexto;
@@ -25,8 +21,6 @@ nav {
         color: $corDoTexto;
         border-bottom: 2px solid black;
     }
-
-
 }
 
 
@@ -42,8 +36,6 @@ h2::first-letter{
         margin: 0 auto;
         border-radius: 10px;
     }
-
-    
 }
 
 #contato {
