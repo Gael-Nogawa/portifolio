@@ -4,21 +4,25 @@
   box-sizing: border-box;
 }
 
-nav {
-  background-color: #34495e;
-}
-nav .navbar-brand, nav .navbar-brand:hover {
-  color: #ecf0f1;
-}
-nav .navbar-toggle {
-  background-color: #ecf0f1;
-}
-nav .nav-link {
+.span {
+  color: #c8d6e5;
+  padding-bottom: 8px;
   border-bottom: 2px solid transparent;
 }
-nav .nav-link:hover {
+.span:hover {
   color: #ecf0f1;
-  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+nav {
+  background-color: #222f3e;
+}
+
+.pe-pagina {
+  background-color: #222f3e;
+  color: #ecf0f1;
+  padding: 10px;
 }
 
 h2::first-letter {

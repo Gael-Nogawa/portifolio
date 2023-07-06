@@ -13,23 +13,24 @@
     <header>
         <nav class="navbar navbar-expand-lg mb-5 p-3 sticky-top">
             <div class="container">
-              <a class="navbar-brand col-4" href="#">Portfólio</a>
+              <a class="navbar-brand col-4" href="#">
+                <span class="span">Portfólio</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link me-2" aria-current="page" href="#">Home</a>
+                    <a class="nav-link me-2" aria-current="page" href="#"><span class="span">Home</span></a>
                   </li>
                   <li>
-                    <a class="nav-link me-2" href="#formacao">Formação</a>
+                    <a class="nav-link me-2" href="#formacao"><span class="span">Formação</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2" href="#projetos">Meus projetos</a>
+                    <a class="nav-link me-2" href="#projetos"><span class="span">Meus projetos</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2" href="#contato">Contato</a>
+                    <a class="nav-link me-2" href="#contato"><span class="span">Contato</span></a>
                   </li>
                   
                 </ul>
@@ -42,14 +43,25 @@
     </header>
 
     <div class="container mb-5" data-bs-spy="scroll" data-bs-target="cabecalho id=cabecalho" data-bs-smooth-scroll="true">
-        <div class="row">
+        <div class="row text-center align-items-center">
             <div class="col-md-6">
                 <h1>Olá, meu nome Gael</h1>
                 <p>
                     Estudante de Análise e Desenvolvimento de Sistemas, e full stack JAVA.</br>
                     E ouvinte de músicas dos anos 2000.
                 </p>
-                <button type="button" class="btn bg-light">Contato</button>
+
+                <div class="section" id="contato">
+                    <div class="container mb-5 p-5">
+                        <div class="row align-items-center">
+                            <div class="col d-flex justify-content-around">
+                                <a href="https://www.linkedin.com/in/gael-eiji-nogawa/"><i class="bi bi-linkedin social-links"></i></a>
+                                <a href="https://github.com/Gael-Nogawa"><i class="bi bi-github social-links"></i></a>
+                                <a href="eiji.gael@gmail.com"><i class="bi bi-envelope-at-fill social-links"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-6">
                 <img class="foto-img" src="./images/foto-perfil.jpg" alt="Foto de Gael Eiji Nogawa">
@@ -154,21 +166,10 @@
         </div>
     </div>
 
-    <div class="section" id="contato">
-        <div class="container mb-5 p-5">
-            <div class="row align-items-center">
-                <div class="col">
-                    <h2>Fale comigo!</h2>
-                </div>
-                <div class="col d-flex justify-content-around">
-                    <a href="https://www.linkedin.com/in/gael-eiji-nogawa/"><i class="bi bi-linkedin social-links"></i></a>
-                    <a href="https://github.com/Gael-Nogawa"><i class="bi bi-github social-links"></i></a>
-                    <a href="eiji.gael@gmail.com"><i class="bi bi-envelope-at-fill social-links"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <footer class="pe-pagina text-center">
+        <p>&copy Gael Eiji Nogawa - 2023</p> 
+    </footer>
+   
     
     <script src="../assets/bootstrap.min.js"></script>
 </body>

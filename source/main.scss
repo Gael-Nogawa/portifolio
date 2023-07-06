@@ -6,23 +6,28 @@
 
 }
 
+.span {
+    color: $corPrincipal;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
 
-
-nav {
-    background-color:$corDoHeader;
-
-    .navbar-toggle {
-        background-color: $corDoTexto;
-    }
-    .nav-link {
-        border-bottom: 2px solid transparent;
-    }
-    .nav-link:hover {
+    &:hover {
         color: $corDoTexto;
-        border-bottom: 2px solid black;
+        padding-bottom: 8px;
+        border-bottom: 2px solid $corDoTexto;
     }
 }
 
+nav {
+    background-color:$corDoHeader;
+   
+}
+
+.pe-pagina {
+    background-color: $corDoHeader;
+    color: $corDoTexto;
+    padding: 10px;
+}
 
 
 h2::first-letter{
