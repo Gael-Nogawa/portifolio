@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/bootstrap.min.css">
     <link rel="stylesheet" href="../build/main.css">
@@ -14,23 +14,23 @@
         <nav class="navbar navbar-expand-lg mb-5 p-3 sticky-top">
             <div class="container">
               <a class="navbar-brand col-4" href="#">
-                <span class="span">Portfólio</span></a>
+                <span class="header navbar-text">Portfólio</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link me-2" aria-current="page" href="#"><span class="span">Home</span></a>
+                    <a class="nav-link me-2" aria-current="page" href="#"><span class="header-texto">Home</span></a>
                   </li>
                   <li>
-                    <a class="nav-link me-2" href="#formacao"><span class="span">Formação</span></a>
+                    <a class="nav-link me-2" href="#formacao"><span class="header-texto">Formação</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2" href="#projetos"><span class="span">Meus projetos</span></a>
+                    <a class="nav-link me-2" href="#projetos"><span class="header-texto">Meus projetos</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2" href="#contato"><span class="span">Contato</span></a>
+                    <a class="nav-link me-2" href="#contato"><span class="header-texto">Contato</span></a>
                   </li>
                   
                 </ul>
@@ -48,16 +48,16 @@
                 <h1>Olá, meu nome Gael</h1>
                 <p>
                     Estudante de Análise e Desenvolvimento de Sistemas, e full stack JAVA.</br>
-                    E ouvinte de músicas dos anos 2000.
+                    Criança dos anos 90.
                 </p>
 
                 <div class="section" id="contato">
                     <div class="container mb-5 p-5">
                         <div class="row align-items-center">
                             <div class="col d-flex justify-content-around">
-                                <a href="https://www.linkedin.com/in/gael-eiji-nogawa/"><i class="bi bi-linkedin social-links"></i></a>
-                                <a href="https://github.com/Gael-Nogawa"><i class="bi bi-github social-links"></i></a>
-                                <a href="eiji.gael@gmail.com"><i class="bi bi-envelope-at-fill social-links"></i></a>
+                                <a href="https://www.linkedin.com/in/gael-eiji-nogawa/"><i class="bi bi-linkedin social-links" style="font-size: 30px"></i></a>
+                                <a href="https://github.com/Gael-Nogawa"><span styles="font-size: 50px"><i class="bi bi-github social-links" style="font-size: 30px"></i></span></a>
+                                <a href="eiji.gael@gmail.com"><i class="bi bi-envelope-at-fill social-links" style="font-size: 30px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -69,34 +69,40 @@
         </div>
     </div>
 
-    <div class="section resumo">
+    <div class="section" id="resumo">
         <div class="container mb-5">
-            <div class="row">
-                <div class="col-md-6 col-sm-1">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-sm-1 p-5">
                     <h2>Resumo profissional</h2>
-                    <p>Sou um profissional colaborativo, proativo, tenho capacidade de organização e gosto de trabalhar em equipe.<br>
+                    <p>
+                        Sou um profissional colaborativo, proativo, tenho capacidade de organização 
+                        e gosto de trabalhar em equipe.<br>
                         Estudo para que eu posso impactar pessoas através de linguagem de programação.
                     </p>
                 </div>
-                <div class="col-md-6 col-sm-1">
-                    <div class="row align-items-baseline">
-                        <div class="col-2">
+                <div class="col-md-8 col-sm-1">
+                    <div class="row align-items-baseline py-5">
+                        <div class="col-1">
                             <i class="bi bi-arrow-bar-right"></i>
                         </div>
-                        <div class="col">
+                        <div class="col resumo_profissional">
                             <h3>Front-End</h3>
-                            <p>JavaScript, HTML5 e CSS3. Pude acrescentar algumas ferramentas, como SaSS, Gulp e Less, e também aprendi a usar a bilbioteca jQuery e Bootstrap respectivamente com os seus plugins.</p>
+                            <p>JavaScript, HTML5 e CSS3. Pude acrescentar algumas ferramentas, como SaSS, 
+                                Gulp e Less, e também aprendi a usar a bilbioteca jQuery e Bootstrap respectivamente 
+                                com os seus plugins.
+                            </p>
                         </div>
                     </div>
                     
-                    <div class="row align-items-baseline">
-                        <div class="col-2">
+                    <div class="row align-items-baseline py-5">
+                        <div class="col-1">
                             <i class="bi bi-arrow-bar-right"></i>
                         </div>
-                        <div class="col">
+                        <div class="col resumo_profissional">
                             <h3>Back-end</h3>
                             <p>Linguagem principal: JAVA.<br>
-                            Aprendendo com consistentes exercicios a utilização da programação orientada a objetos</p>
+                                Aprendendo com consistentes exercicios a utilização da programação orientada a objetos
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -107,27 +113,36 @@
     <div class="section" id="formacao">
         <div class="container mb-5">
             <div class="row align-items-center">
-                <div class="col-md-6 col-sm-1">
+                <div class="col-md-3 col-sm-1 p-5" >
                     <h2>Formação</h2>
                 </div>
                 <div class="col">
-                    <div class="row align-items-center">
-                        <div class="col-2">
-                            <time>2020</time>
+                    <div class="row justify-content-center align-items-center py-5">
+                        <div class="col-2 px-5">
+                            <time> 06/2020 06/2024</time>
 
                         </div>
                         <div class="col">
-                            <h3>Teste1</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quae ducimus ut accusantium temporibus provident sunt eius quisquam, dignissimos enim earum blanditiis at eaque doloribus cumque eligendi doloremque inventore tempora!</p>
+                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+                            <p>Desenvolvi competências como estruturas de dados, consultas e 
+                                manipulações com a linguagem SQL, estatística aplica ao data science,
+                                sistemas de informação, com isso, desenvolvi alguns projetos para a Universidade.
+                            </p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <time>2020</time>
+                    <div class="row ustify-content-center align-items-center py-5">
+                        <div class="col-2 px-5">
+                            <time>02/2023 08/2024</time>
                         </div>
                         <div class="col">
-                            <h3>Testes2</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste beatae vitae minima atque ducimus, totam cumque inventore accusantium earum magnam quidem enim consectetur quia tempora rerum at ipsam nam excepturi.</p>
+                            <h3>Full Stack Java</h3>
+                            <p>
+                                Voltado para as estruturas de software e manuseio da liguagem para full stack. </br>
+                                Desenvolvendo o front-end com responsividade, usando como linguagem principal o JavaScript, HTML para estrutura e CSS3 para 
+                                estilizar a página, e dentro disso, usando frameworks e ferramentas para comprimir imagens, 
+                                arquivos, para o usuário final, e estruturando e organizando os arquivos CSS. </br>
+                                No back-end, faço uso dos microsserviços com inicialização Java, Maven, Gradle e Spring, utilizando o 
+                                banco de dados, desenvolvendo testes de sites com APIs.</p>
                         </div>
                     </div>
                 </div>
@@ -136,19 +151,19 @@
     </div>
 
     <div class="section" id="projetos">
-        <div class="container mb-5">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-sm-6 p-5 projeto-item">
                     <h2>Meus projetos</h2>
                     <p>Os projetos relevantes que foram desenvolvidas durante o meu desenvolvimento contínuo.</br>
                     </p>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 p-3 projeto-item">
                     <a href="https://gael-projeto-calculadora-de-medias.vercel.app/">
                         <img src="./images/calculadora.png" alt="">
+                        <p class="projeto-titulo text-center p-2"><strong>Calculadora de notas</strong></p>
                     </a>
-                    <p><strong>Calculadora de notas</strong></p>
-                    <p>
+                    <p class="projeto-texto">
                         Quando a página é aberta, é necessário informar qual a nota de reprovação, 
                         e assim dar continuidade colocando as matérias e suas respectivas notas.</br>
                         
@@ -157,36 +172,37 @@
                     </p>
 
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 p-3 projeto-item">
                     <a href="https://j-query-lista-de-tarefas.vercel.app/">
                         <img src="./images/lista-de-tarefas.png" alt="">
+                        <p class="projeto-titulo text-center p-2"><strong>Lista de tarefas</strong></p>
                     </a>
-                    <p><strong>Lista de tarefas</strong></p>
-                    <p>
+                    <p class="projeto-texto">
                         No início, as listas de tarefas aparecem, mas é possível recolher a lista, caso seja privada e não deixar ninguém que possa passar atrás, olhar. rs </br>
                         Se a tarefa adicionada foi concluída, clique em cima para riscá-la.</br>
-                        As ferramentas utilizadas foram, HTML5, CSS3 e dentro do JavaScript, foi aplicado o jQuery.
+                        As ferramentas utilizadas foram, HTML5, CSS3 e JavaScript com a biblioteca jQuery.
 
                     </p>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 p-3 projeto-item">
                     
                     <a href="https://site-games-shop-tau.vercel.app/">
                         <img src="./images/landing1.png" alt="">
+                        <p class="projeto-titulo text-center p-2"><strong>Loja de Games</strong>
                     </a>
-                    <p><strong>Loja de Games</strong></p>
-                    <p>
-                        O site é simples, porém bem organizado. </br>
-                        Tem o campo de formulário com tamanhos certos, não deixando a caixa da mensagem aberta, para desconfigurar a página.</br>
-                        Tem os campos na parte superior que levam para o destino exposto.</br>
-                        Ferramentas utilizadas, HTML5 e CSS3.
+                        <p class="projeto-texto">
+                            O site é simples, porém bem organizado. </br>
+                            Tem o campo de formulário com tamanhos certos, não deixando a caixa da mensagem aberta, para desconfigurar a página.</br>
+                            Tem os campos na parte superior que levam para o destino exposto.</br>
+                            Ferramentas utilizadas, HTML5 e CSS3.
+                        </p>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="pe-pagina text-center">
+    <footer class="pe-pagina pt-5 text-center">
         <p>&copy Gael Eiji Nogawa - 2023</p> 
     </footer>
    

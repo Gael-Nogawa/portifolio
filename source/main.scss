@@ -3,36 +3,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 
 }
 
-.span {
-    color: $corPrincipal;
+.header-texto{
+    color: $corDoTextoSecundaria;
     padding-bottom: 8px;
     border-bottom: 2px solid transparent;
 
     &:hover {
-        color: $corDoTexto;
+        color: $corTextoPrincipal;
         padding-bottom: 8px;
-        border-bottom: 2px solid $corDoTexto;
+        border-bottom: 2px solid $corDoTextoSecundaria;
+      
     }
 }
 
 nav {
-    background-color:$corDoHeader;
+    background-color:$corPrincipal;
+    color: $corDoTextoSecundaria;   
    
 }
 
-.pe-pagina {
-    background-color: $corDoHeader;
-    color: $corDoTexto;
-    padding: 10px;
+.navbar-text {
+    color: $corTextoPrincipal;
 }
 
 
-h2::first-letter{
-    font-size: 100px;
-}
+
 
 .container {
     img{
@@ -41,22 +40,32 @@ h2::first-letter{
         margin: 0 auto;
         border-radius: 10px;
     }
+    
 }
 
-#contato {
-    .container {
-        .row{
-            .col {
-                .bi-linkedin {
-                    width: 500px;
-                    background-color: red;
-                }
-            }
-           
-        }
-        
-    }
-   
+.projeto-item a img {
+    max-height: 200px;
+    height: 100%;
+}
+
+#resumo,
+#projetos {
+    background-color: $corPrincipal;
+    color: $corDoTextoSecundaria;
 }
 
 
+.projeto-titulo {
+    background-color: #2980b9;
+    
+}
+.projeto-texto {
+    
+    justify-content: center;
+}
+
+.pe-pagina {
+    background-color: $corPrincipal;
+    color: $corTextoPrincipal;
+    padding: 10px;
+}
